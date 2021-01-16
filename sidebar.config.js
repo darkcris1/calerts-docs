@@ -3,11 +3,11 @@ const indexSublinks = [
   { href: '/#usage', text: 'Usage' },
 ]
 const utilsSublinks = [
-  { href: '/utils/#ca-utils-tag', text: 'ca.utils.tag()' },
-  { href: '/utils/#ca-utils-styles', text: 'ca.utils.styles()' },
-  { href: '/utils/#ca-utils-queryAll', text: 'ca.utils.queryAll()' },
-  { href: '/utils/#ca-utils-createPromise', text: 'ca.utils.createPromise()' },
-  { href: '/utils/#ca-utils-edit', text: 'ca.utils.edit()' },
+  { href: '/utils#ca-utils-tag', text: 'ca.utils.tag()' },
+  { href: '/utils#ca-utils-styles', text: 'ca.utils.styles()' },
+  { href: '/utils#ca-utils-queryall', text: 'ca.utils.queryAll()' },
+  { href: '/utils#ca-utils-createpromise', text: 'ca.utils.createPromise()' },
+  { href: '/utils#ca-utils-edit', text: 'ca.utils.edit()' },
 ]
 export default {
   logo: (
