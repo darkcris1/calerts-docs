@@ -7,16 +7,21 @@ description: "Utils that calert uses"
 
 ## ca.utils.tag
 
+This is like a **document.createElement** function but the difference is you change any **attributes**
+and **events** easily
+
 ```javascript
 import calert from 'calerts'
 
 const { tag } = calert.utils
 
-tag('h1')
+const h1 = tag('h1')
+
 tag('button', {
-  className: "btn",
+  className: 'btn',
   appendTo: document.body,
-  appendChild: tag("h1")
+  appendChild: tag('h1'),
+  dataset: ['custom-attr', false],
   onClick: () => {
     alert('Hello world')
   },
