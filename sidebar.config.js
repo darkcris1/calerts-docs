@@ -25,7 +25,7 @@ export default {
     { href: '/position', text: 'Position' },
     { href: '/icons', text: 'Icons' },
     { href: '/examples', text: 'Examples' },
-    { href: '/api', text: 'calert(options?)' },
+    { href: '/options', text: 'calert(options?)' },
     { href: '/utils', text: 'UTILS', subLinks: utilsSublinks },
   ],
   footer: (
