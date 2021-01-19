@@ -2,7 +2,7 @@
 
 title: "Calert Documentation",
 
-description: "documentation template react/next.js",
+description: "calert documentation - calert is tiny but powerful for custom dialogs ",
 
 normalAlert: "alert('hello world')",
 

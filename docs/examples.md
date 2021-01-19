@@ -1,5 +1,6 @@
 --vars
 title: "Calert | Examples",
+description: "advance calert example for better documentation ",
 
 inputSample: `calert({ 
     text: 'Type anything',

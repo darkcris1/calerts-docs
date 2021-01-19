@@ -1,5 +1,6 @@
 --vars
 title: "Calert | Inputs",
+description: "Customizing inputs option in calert",
 inputSample: `calert({ 
   text: 'Random Text:',
   inputs: {

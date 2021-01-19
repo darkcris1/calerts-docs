@@ -1,6 +1,7 @@
 --vars
 
 title: `Calert | Icons`,
+description: "Customizing icon option in calert",
 
 infoSample: `calert({ title: 'Hello world', text: 'This is a text', icon: 'info' })`,
 
