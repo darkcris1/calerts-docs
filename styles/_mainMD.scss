@@ -82,7 +82,10 @@ main {
   .sample-comparison {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    @include responsive('medium') {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 }
 

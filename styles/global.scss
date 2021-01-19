@@ -8,8 +8,11 @@ $text-color: rgb(82, 82, 82);
   --strong-color: #3999f2;
   --md-links-color: #3999f2;
   --background: snow;
-  --sublinks-list-type: '';
+
+  --sublinks-list-type: 'a';
 }
+
+
 
 @import './functions';
 
