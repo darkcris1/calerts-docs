@@ -7,6 +7,7 @@ function sortSublinks(sublinks) {
     return acc
   }, [])
 }
+
 export default function sortLinks(links) {
   return links.reduce((acc, obj) => {
     const { subLinks } = obj
