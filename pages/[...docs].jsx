@@ -36,7 +36,7 @@ const docs = ({ data, title, description }) => {
         )()
       }
     } catch (_) {}
-  }, [asPath])
+  }, ["",asPath])
   return (
     <>
       <SEO
